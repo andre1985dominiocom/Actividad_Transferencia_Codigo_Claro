@@ -42,7 +42,15 @@ export const ejercicio2 = () => {
 
   function validarArreglos(a, b) {
     
-    try
+    try {
+      // con la condicional if, vamos a validar, que los dos parametros tienenn que ser arreglos,
+      //para estos empezamos negando la condincion, y con metodo array.isarray, validamos que cada parametro sea un arreglos
+      // con el operador logico or, validamos que si alguno de los dos parametros no es un arreglo, se lanzara el error
+      if (!Array.isArray(a) || !Array.isArray(b)) {
+        throw new Error("ambos parametros deben ser arreglos. ")
+        
+      }
+    }
 
   }
 
