@@ -1,3 +1,5 @@
+//archivo barril
+
 export { ejercicio1 } from './ejercicio1.js';
 export { ejercicio2 } from './ejercicio2.js';
 export { ejercicio3 } from './ejercicio3.js';
